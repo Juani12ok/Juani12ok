@@ -1,7 +1,7 @@
 @font-face {
 	font-family: "SonicHUD";
 	src:
-		url("fonts/sonic-name-hud-v3.ttf") format("truetype");
+		url("https://raw.githubusercontent.com/Juani12ok/Juani12ok/refs/heads/main/docs/fonts/sonic-name-hud-v3.ttf") format("truetype");
 }
 
 .name {
