@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @Juani12ok
 - 👀 I’m interested in [Sonic 3 A.I.R.](https://sonic3air.org)
 - 🌱 I’m currently learning Lemon Scripting.
-- ![💞](https://raw.githubusercontent.com/Juani12ok/Non-Trash-Stuff/refs/heads/discord-and-gb/images.gamebanana.com/static/img/mascots/detective_alt.png) I’m looking to collaborate on ... <!-- OG emoji was 💞. -->
+<!---- ![💞](https://raw.githubusercontent.com/Juani12ok/Non-Trash-Stuff/refs/heads/discord-and-gb/images.gamebanana.com/static/img/mascots/detective_alt.png) I’m looking to collaborate on ... <!-- OG emoji was 💞. -->
 - 📫 How to reach me:
 	- 
 - 😄 Pronouns: He/Him
