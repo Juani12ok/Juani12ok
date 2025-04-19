@@ -3,6 +3,6 @@
 	src: url("https://raw.githubusercontent.com/Juani12ok/Juani12ok/refs/heads/main/docs/fonts/sonic-name-hud-v3.ttf") format("truetype");
 }
 
-.name {
+body {
 	font-family: "SonicHUD";
 }
