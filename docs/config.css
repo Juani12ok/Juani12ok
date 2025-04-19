@@ -3,4 +3,8 @@
 	src: url("https://raw.githubusercontent.com/Juani12ok/Juani12ok/refs/heads/main/docs/fonts/sonic-name-hud-v3.ttf");
 }
 
-body { font-family: "SonicHUD" }
+body {
+	background: url("https://raw.githubusercontent.com/Eukaryot/sonic3air/refs/heads/main/Oxygen/sonic3air/data/images/backdrop/classic1.png");
+	font-family: "SonicHUD";
+	color: #FFFFFF;
+}
