@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<link rel="stylesheet" href="https://unpkg.com/98.css">
+
+<style type="text/css" media="screen, print">
+	@font-face {
+		font-family: "SonicHUD";
+		src: url("https://raw.githubusercontent.com/Juani12ok/Juani12ok/refs/heads/main/docs/fonts/sonic-name-hud-v4.ttf");
+	}
+	body { background: url("https://raw.githubusercontent.com/Eukaryot/sonic3air/refs/heads/main/Oxygen/sonic3air/data/images/backdrop/classic1.png") }
+	
+	cons { font-family: "SonicHUD"; font-size: xx-small; }
+	.setToWhite { color: #FFFFFF; }
+	.setToYellow { color: #FFFF00; }
+	.setToRed { color: #FF0000; }
+	.setToGreen { color: #00FF00; }
+	.setToGray { color: #AEAEAE; }
+	
+	.hidden { display: none; }
+	.show { display: block; }
+	}
+</style>
+
+<body>
+	<p><img src="https://raw.githubusercontent.com/Juani12ok/Non-Trash-Stuff/refs/heads/discord-and-gb/custom/placeholders/Sonic%203%20%26%20Knuckles/announcement-s3k.gif" style="width: 18px;">  <cons class="setToWhite">Announcements</cons></p>
+	<br>
+	<p class="setToWhite">Get the latest announcements through here. You'll see announcements about by status, and/or the webpage itself.</p>
+	<hr>
+	
+	<button id="refresh">Refresh</button>
+	<br><br>
+	
+	<div class="hidden" id="window1">
+		<div class="window" style="width: 300px">
+			<div class="title-bar">
+				<div class="title-bar-text"><img src="https://raw.githubusercontent.com/Juani12ok/Non-Trash-Stuff/refs/heads/discord-and-gb/custom/placeholders/Sonic%203%20%26%20Knuckles/S3AIRLogo-16px.png" style="width: 10px; height: 10px"></img> An announcement for S3AIR</div>
+				<div class="title-bar-controls">
+					<button aria-label="Close" id="close"></button>
+				</div>
+			</div>
+			<div class="window-body">
+				<p>I'll say this quick.</p>
+				<br>
+				<p>I'll be no longer helping in new proyects because of burnouts.</p>
+				<p>Also, I'll no longer continue with current proyects I've made.</p>
+				<p>I'll try to take a break from any social media, so don't expect me to talk with you as fast as I was before.</p>
+			</div>
+			<div class="status-bar">
+				<p class="status-bar-field">06/20/2025 - 05:40 a. m.</p>
+				<p class="status-bar-field">Relevancy: <null class="setToRed">High</null></p>
+			</div>
+		</div>
+	</div>
+</body>
+
+<script>
+	const rbutton = document.getElementById('refresh');
+	const cbutton = document.getElementById('close');
+	const section = document.getElementById('window1');
+	
+	rbutton.addEventListener('click', function() {
+		if (section.classList.contains('hidden')) {
+			section.classList.remove('hidden');
+			section.classList.add('show');
+		}
+	});
+	
+	cbutton.addEventListener('click', function() {
+		if (section.classList.contains('show')) {
+			section.classList.remove('show');
+			section.classList.add('hidden');
+		}
+	});
+</script>
