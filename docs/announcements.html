@@ -53,6 +53,14 @@
 	</div>
 </body>
 
+<hr></hr>
+
+<footer>
+	<a href="https://Juani12ok.github.io/Juani12ok"><button><- Back to the Main Page</button></a>
+	<br></br><br></br>
+	<p class="setToGray">© Juani12ok, 2025</p>
+<footer>
+
 <script>
 	const rbutton = document.getElementById('refresh');
 	const cbutton = document.getElementById('close');
@@ -69,6 +77,8 @@
 		if (section.classList.contains('show')) {
 			section.classList.remove('show');
 			section.classList.add('hidden');
-		}
+		} else {
+			console.error('Class name “show” has not been found.')
+		};
 	});
 </script>
