@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 
-<link rel="stylesheet" href="https://unpkg.com/98.css">
+<head>
+	<title>Announcements | Juani12ok's Website</title>
+	<link rel="stylesheet" href="https://unpkg.com/98.css">
+</head>
 
 <style type="text/css" media="screen, print">
 	@font-face {
@@ -65,6 +68,9 @@
 <footer>
 
 <script>
+	var classErr1 = "Class name “show” has not been found.";
+	var classErr2 = "Class name “hidden” has not been found.";
+	
 	const rbutton = document.getElementById('refresh');
 	const cbutton = document.getElementById('close');
 	const section = document.getElementById('window1');
@@ -73,7 +79,9 @@
 		if (section.classList.contains('hidden')) {
 			section.classList.remove('hidden');
 			section.classList.add('show');
-		}
+		} else {
+			console.error(classErr2);
+		};
 	});
 	
 	cbutton.addEventListener('click', function() {
@@ -81,7 +89,7 @@
 			section.classList.remove('show');
 			section.classList.add('hidden');
 		} else {
-			console.error('Class name “show” has not been found.')
+			console.error(classErr1);
 		};
 	});
 </script>
