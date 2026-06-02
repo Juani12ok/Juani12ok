@@ -4,11 +4,15 @@
 }
 @font-face {
 	font-family: "Oxyfont";
-	src: url("https://raw.githubusercontent.com/Juani12ok/Juani12ok/refs/heads/main/docs/fonts/oxyfont-regular.ttf")
+	src: url("https://raw.githubusercontent.com/Juani12ok/Juani12ok/refs/heads/main/docs/fonts/oxyfont-regular.ttf");
 }
 
-body { background: url("https://raw.githubusercontent.com/Eukaryot/sonic3air/refs/heads/main/Oxygen/sonic3air/data/images/backdrop/classic1.png"); }
+body {
+	background: url("https://raw.githubusercontent.com/Eukaryot/sonic3air/refs/heads/main/Oxygen/sonic3air/data/images/backdrop/classic1.png");
+}
 
+left { margin-left: 0; margin-right: auto; text-align: left; }
+right { margin-left: auto; margin-right: 0; text-align: right; }
 oxyfont { font-family: "Oxyfont"; font-size: 3dp; }
 sonic { font-family: "SonicHUD"; font-size: xx-small; }
 .setToWhite { color: #FFFFFF; }
@@ -18,6 +22,7 @@ sonic { font-family: "SonicHUD"; font-size: xx-small; }
 .setToGray { color: #AEAEAE; }
 .setToOrange { color: #FF8A00; }
 .setToCyan { color: #009B9B; }
+.setToBlack { color: #000000; }
 
 .show { display: block; }
 .closed { display: none; }

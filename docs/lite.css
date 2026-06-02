@@ -1,0 +1,11 @@
+left { margin-left: 0; margin-right: auto; text-align: left; }
+right { margin-left: auto; margin-right: 0; text-align: right; }
+
+.setToWhite { color: #FFFFFF; }
+.setToYellow { color: #FFFF00; }
+.setToRed { color: #FF0000; }
+.setToGreen { color: #00FF00; }
+.setToGray { color: #AEAEAE; }
+.setToOrange { color: #FF8A00; }
+.setToCyan { color: #009B9B; }
+.setToBlack { color: #000000; }
